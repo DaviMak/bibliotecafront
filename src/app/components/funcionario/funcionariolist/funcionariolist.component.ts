@@ -45,7 +45,7 @@ export class FuncionariolistComponent {
   }
 
   novo(){
-    //this.funcionarioEdit = new Funcionario(0,"nome", "12345678900", "funcionario@gmail.com", "senha123");
+    this.funcionarioEdit = new Funcionario(0,"nome", "12345678900", "funcionario@gmail.com", "senha123");
     this.modalRef = this.modalservice.open(this.modalFuncionarioDetalhe);
   }
   editar(obj: Funcionario){

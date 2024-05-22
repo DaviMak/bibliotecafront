@@ -16,6 +16,10 @@ import { MdbModalRef, MdbModalService } from 'mdb-angular-ui-kit/modal';
 })
 export class FuncionariodetailsComponent {
 
+  constructor(){
+    
+  }
+
   @Input("funcionario") Funcionario: Funcionario = new Funcionario();
   @Output("retorno") retorno: EventEmitter<any> = new EventEmitter();
 
