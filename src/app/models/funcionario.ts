@@ -5,5 +5,5 @@ export class Funcionario {
     flFuncionario!: boolean;
     dsCpf!: string;
     dsEmail!: string;
-    dsSEnha!: string;
+    dsSenha!: string;
 }
